@@ -1,25 +1,32 @@
-import logo from './logo.svg';
 import './App.css';
+import React from 'react'
+// import UseState from './UseState';
+// import UseStateArray from './components/UseStateArray';
+// import UseStateObject from './components/UseStateObject';
+// import BasicForm from './components/forms/BasicForm'
+// import UseEffect from './components/UseEffect';
+// import UncontrolledForm from './components/forms/UncontrolledForm';
+// import UseReducer from './components/UseReducer';
+// import ComA from './components/useContext/ComA';
+// import Test from './components/Test';
 
-function App() {
+
+
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <>
+      {/* <UseState /> */}
+      {/* <UseStateArray /> */}
+      {/* <UseStateObject /> */}
+      {/* <BasicForm /> */}
+      {/* <UseEffect /> */}
+      {/* <UncontrolledForm /> */}
+      {/* <UseReducer /> */}
+      {/* <ComA /> */}
+      {/* <Test /> */}
+
+    </>
+  )
 }
 
-export default App;
+export default App
